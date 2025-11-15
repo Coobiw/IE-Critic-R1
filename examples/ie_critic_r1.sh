@@ -8,7 +8,7 @@ python3 -m verl.trainer.main \
     worker.actor.model.model_path=${MODEL_PATH} \
     worker.actor.offload.offload_optimizer=True \
     worker.rollout.limit_images=2 \
-    worker.reward.score_function="./examples/score_function/agiqa3k.py:compute_score_l1" \
+    worker.reward.score_function="./examples/score_function/ie_critic_r1.py:compute_score_l1" \
     trainer.save_freq=-1 \
     trainer.experiment_name=ie_critic_r1 \
     trainer.save_checkpoint_path="./saves/ie_critic_r1" \

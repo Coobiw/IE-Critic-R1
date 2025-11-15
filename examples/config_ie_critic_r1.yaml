@@ -81,7 +81,7 @@ worker:
 
   reward:
     reward_type: function
-    score_function: ./examples/score_function/ie_ciritc_r1.py:compute_score_l1
+    score_function: ./examples/score_function/ie_critic_r1.py:compute_score_l1
     score_function_kwargs:
       format_weight: 1.0
       r_min: 0.05
