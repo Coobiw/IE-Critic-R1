@@ -24,7 +24,7 @@ echo ""
 echo "启动实例 1 (GPU 0-3, 端口 8000)..."
 CUDA_VISIBLE_DEVICES=0,1,2,3 vllm serve $CKPT_PATH \
   --served-model-name $MODEL_NAME \
-  --chat-template qwen_think_template.jina \
+  --chat-template qwen25vl_think_template.jina \
   --max-model-len 8192 \
   --tensor-parallel-size 4 \
   --gpu-memory-utilization 0.6 \
@@ -45,7 +45,7 @@ echo ""
 echo "启动实例 2 (GPU 4-7, 端口 8001)..."
 CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve $CKPT_PATH \
   --served-model-name $MODEL_NAME \
-  --chat-template qwen_think_template.jina \
+  --chat-template qwen25vl_think_template.jina \
   --max-model-len 8192 \
   --tensor-parallel-size 4 \
   --gpu-memory-utilization 0.6 \

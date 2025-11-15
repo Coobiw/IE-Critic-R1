@@ -49,7 +49,7 @@ class Runner:
         
         # Apply think chat template if force_think_template is True
         if config.worker.rollout.force_think_template:
-            think_template_path = "./qwen_think_template.jina"
+            think_template_path = "./qwen25vl_think_template.jina"
             try:
                 with open(think_template_path, "r") as f:
                     custom_chat_template = f.read()

@@ -9,7 +9,7 @@ PORT=${MODEL_PORT:-8000}  # 使用环境变量或默认 8000
 
 vllm serve $CKPT_PATH \
   --served-model-name $MODEL_NAME \
-  --chat-template qwen_think_template.jina \
+  --chat-template qwen25vl_think_template.jina \
   --max-model-len 8192 \
   --tensor-parallel-size 4 \
   --gpu-memory-utilization 0.6 \
