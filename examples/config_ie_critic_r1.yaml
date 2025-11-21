@@ -6,7 +6,7 @@ data:
   image_key: images
   max_prompt_length: 4096
   max_response_length: 4096
-  rollout_batch_size: 64
+  rollout_batch_size: 128
   val_batch_size: 128
   format_prompt: ./examples/format_prompt/ie_critic_r1.jinja
   shuffle: true
@@ -27,7 +27,7 @@ algorithm:
 
 worker:
   actor:
-    global_batch_size: 64
+    global_batch_size: 128
     micro_batch_size_per_device_for_update: 8 # 4
     micro_batch_size_per_device_for_experience: 64 # 16
     max_grad_norm: 1.0
@@ -105,5 +105,5 @@ trainer:
   save_limit: 20  # -1 to disable
   save_checkpoint_path: null
   load_checkpoint_path: null
-  train_generations_to_log: 10     # 🆕 Training logging (每次 10 个样本)
-  train_log_freq: 10              # 🆕 每 1 步 log 一次
+  train_generations_to_log: 10     # Training logging (10 samples per time)
+  train_log_freq: 10              # Log once every step
