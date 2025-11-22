@@ -24,6 +24,9 @@
 
 ![](./asset/teaser.png)
 
+![R1 Moment](./asset/curve.png)
+<p align="center" style="color: gray;"><em>The "R1 Moment" of Image Editing Quality Assessment.</em></p>
+
 **IE-Critic-R1** is a Multimodal Large Language Model (MLLM) specialized in assessing the quality of text-driven image editing results. It is a pointwise, generative reward model, leveraging Chain-of-Thought (CoT) reasoning SFT and RLVR to provide accurate, human-aligned evaluations of image editing.
 
 ## News
