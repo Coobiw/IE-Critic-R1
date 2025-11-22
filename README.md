@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./asset/logo.png" width="25%">
+<img src="./asset/logo.png" width="40%">
 <h1>IE-Critic-R1</h1>
 <h3>Advancing the Explanatory Measurement of Text-Driven Image Editing for Human Perception Alignment</h3>
 
