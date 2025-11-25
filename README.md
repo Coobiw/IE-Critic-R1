@@ -10,7 +10,7 @@
 
 (\* equal contribution)
 
-[![arXiv](https://img.shields.io/badge/ArXiv-Prepint(Coming%20Soon)-red)](https://arxiv.org/abs/2409.03277)
+[![arXiv](https://img.shields.io/badge/ArXiv-Prepint-red)](https://arxiv.org/abs/2511.18055)
 [![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model-blue)](https://huggingface.co/Coobiw/IE-Critic-R1-7B)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-8A2BE2)](https://huggingface.co/datasets/Coobiw/IE-Bench-4k)
 [![Hugging Face SFT Data](https://img.shields.io/badge/Hugging%20Face-SFT%20Data-black)](https://huggingface.co/datasets/Coobiw/IE-Bench-CoT-mixed)
@@ -146,7 +146,7 @@ If you find this project useful, please cite our paper:
 @article{IECriticR1,
     title={IE-Critic-R1: Advancing the Explanatory Measurement of Text-Driven Image Editing for Human Perception Alignment},
     author={Bowen Qu and Shangkun Sun and Xiaoyu Liang and Wei Gao},
-    journal={wait for a moment of our arxiv submission},
+    journal={arXiv preprint arXiv:2511.18055},
     year={2025}
 }
 ```
