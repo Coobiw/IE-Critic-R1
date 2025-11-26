@@ -157,4 +157,5 @@ If you find this project useful, please cite our paper:
 *   [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) for the SFT framework.
 *   [EasyR1](https://github.com/hiyouga/EasyR1) and [verl](https://github.com/volcengine/verl) for the RLVR training framework.
 *   [vLLM](https://github.com/vllm-project/vllm) for the vLLM serving framework.
+*   Sincerely thank [EasyR1](https://github.com/hiyouga/EasyR1) and [Awesome-MLLM-Reasoning-Collection](https://github.com/lwpyh/Awesome-MLLM-Reasoning-Collection) for collecting our work.
 
